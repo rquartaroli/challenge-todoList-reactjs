@@ -1,0 +1,38 @@
+.wrapperTask {
+  width: 46rem;
+  height: 4.5rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--gray-300);
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.image {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.task {
+  width: 39.5rem;
+  margin-left: 0.75rem;
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.taskDone {
+  width: 39.5rem;
+  margin-left: 0.75rem;
+  color: var(--gray-300);
+  text-decoration: line-through;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.buttonA {
+  display: flex;
+  cursor: pointer;
+}
